@@ -22,3 +22,34 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    background-color: rgb(47, 198, 33);
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    background-color: rgb(46, 139, 221);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card2 {
+    background-color: rgb(16, 49, 78);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3 {
+    background-color: rgb(133, 187, 235);
+    min-height: 300px;
+    width: 30%;
+}
